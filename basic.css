@@ -13,15 +13,12 @@ body{
     flex-direction: column;
     margin-bottom: 0px;
 }
-.pagrindas{
+.top{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    flex-direction: column;   
 }
-h2{
+.h2{
     background-color: rgba(41,117,250,255);
-    width: 100%;  height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,26 +27,30 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     margin-bottom: 0px;
 }
-nav{
+.ficons{
     background-color: rgba(41,117,250,255);
-    width: 100px;  height: 350px;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
+    gap: 10px;
     align-items: center;
     flex-direction: row;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 0px;
+    margin-bottom: 10px;
 }
-hr{
-    width: 100%; height: 1px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: solid #369ad1 2px;
+    width: 100%; 
 }
 .box{
     background-color: rgba(41,117,250,255);
     margin: 15px;
+    margin-top: 0px;
     padding: 15px;
     display: flex;
     align-items: center;
